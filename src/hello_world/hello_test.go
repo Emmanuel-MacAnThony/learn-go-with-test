@@ -1,4 +1,4 @@
-package main
+package helloworld
 
 import "testing"
 
@@ -9,6 +9,7 @@ func TestHello(t *testing.T) {
 		if got != want {
 			t.Errorf("got %q want %q", got, want)
 		}
+
 	}
 
 	t.Run("saying hello to people", func(t *testing.T) {
